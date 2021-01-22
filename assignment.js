@@ -1,3 +1,5 @@
+// https://github.com/nabilwoalidrafiu/third-assignment
+
 
 //kilometerToMeter
 
@@ -10,11 +12,11 @@ function kilometerToMeter(kilometer) {
     }
     return meter;
 }
-var result1= kilometerToMeter(-0.6);
+var result1= kilometerToMeter(6);
 console.log(result1);
 
 
-// budgetFCalcultator
+// budgetCalcultator
 function budgetCalculator(watch, mobile, laptop) {
     if ( (watch >= 0 && Number.isInteger(watch)) && (mobile >= 0 && Number.isInteger(mobile) ) && (laptop >= 0  && Number.isInteger(laptop)) ){
         var totalWatch = watch * 50;
@@ -28,7 +30,7 @@ function budgetCalculator(watch, mobile, laptop) {
     }
     return totalBudget;
 }
-var budget = budgetCalculator(500020, 50, 50) 
+var budget = budgetCalculator(520, 50, 50) 
 console.log(budget);
 
 
@@ -59,7 +61,7 @@ function hotelCost(days) {
     }
     return cost;
 }
-var cost = hotelCost(1.5);
+var cost = hotelCost(25);
 console.log(cost);
 
 // megaFriend
